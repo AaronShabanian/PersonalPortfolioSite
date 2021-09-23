@@ -6,7 +6,7 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(181, 255, 233);
+    background-color: rgb(68, 69, 69);
     width: 100%;
     position: top;
   }
@@ -42,7 +42,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* spaces between elements - div sections in our case */
-
+    text-align: center;
     min-height: 200px;
     min-width: 400px;
     background: radial-gradient(#1fe4f5, #3fbafe);
@@ -65,5 +65,13 @@ h1, h3, p, a {
 }
 
 body{
-  background-color: rgb(68, 69, 69);
+  background-color: rgb(122, 137, 194)
+}
+
+.name{
+  font-size: 64px;
+}
+
+.describer{
+  text-align: center;
 }
