@@ -28,7 +28,6 @@ nav {
   }
  
   .navbar{
-      color: aliceblue;
       text-align: center;
   }
   .summary{
@@ -51,6 +50,36 @@ nav {
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0);
 
 }
+.circle{
+  border-radius: 50%;
+  width: 50%;
+  height: 100%;
+}
+.card2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  min-height: auto;
+  min-width: 400px;
+  background: radial-gradient(#c77ba5, #f3d5d5);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0);
+}
+
+.card1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  min-height: 200px;
+  min-width: 400px;
+  background: radial-gradient(#D62121, #C72C2C, #3A1111);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0);
+}
 
 .container {
   width: 100vw;
@@ -60,7 +89,7 @@ nav {
   gap: 1em;
 }
 
-h1, h3, p, a {
+h1, h2, h3, p, a {
   color: #ffffff;
 }
 
@@ -78,4 +107,10 @@ body{
 
 .Langs{
   text-align: center;
+}
+
+.button {
+  color:black
+  width=100%
+  heigh=20px
 }
