@@ -1,5 +1,6 @@
 nav {
     display: block;
+    position: sticky;
   }
   ul {
     list-style-type: none;
@@ -8,7 +9,7 @@ nav {
     overflow: hidden;
     background-color: rgb(68, 69, 69);
     width: 100%;
-    position: top;
+    position: sticky;
   }
   
   li {
@@ -28,14 +29,17 @@ nav {
   }
  
   .navbar{
+    position: sticky;
       text-align: center;
   }
   .summary{
       color: black;
   }
+  /*Makes scrolling smooth */
   html {
     scroll-behavior: smooth;
   }
+  /* Basic Cards were made in class, some properties were just changed */
   .card {
     /* changing layout within card */
     display: flex;
@@ -50,11 +54,13 @@ nav {
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0);
 
 }
+/* make profile picture a circle */
 .circle{
   border-radius: 50%;
   width: 50%;
   height: 100%;
 }
+/* Basic Cards were made in class, some properties were just changed */
 .card2{
   display: flex;
   flex-direction: row;
@@ -89,28 +95,42 @@ nav {
   gap: 1em;
 }
 
+/* Changing font color */
 h1, h2, h3, p, a {
   color: #ffffff;
 }
 
+/*Background color of page */
 body{
   background-color: rgb(122, 137, 194)
 }
 
+/*Make bigger font for my name */
 .name{
   font-size: 64px;
 }
 
+/*Class used to center*/
 .describer{
   text-align: center;
 }
 
+/*Class used to center */
 .Langs{
   text-align: center;
 }
 
-.button {
-  color:black
-  width=100%
-  heigh=20px
+/* Makes a link look the same as a button by casting the appearance */
+.button{
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: 50px;
+  text-decoration: none;
+  background-color: rgb(90, 30, 30);
+  border-radius: 25%;
+}
+/* a:hover used to make the view resume button change color when highlighed*/
+a:hover{
+  background-color: #1fe4f5;
 }
